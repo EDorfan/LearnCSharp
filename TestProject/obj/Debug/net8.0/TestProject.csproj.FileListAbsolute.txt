@@ -1,0 +1,14 @@
+\\wsl.localhost\Ubuntu\home\eyald\LearnCSharp\TestProject\bin\Debug\net8.0\TestProject.exe
+\\wsl.localhost\Ubuntu\home\eyald\LearnCSharp\TestProject\bin\Debug\net8.0\TestProject.deps.json
+\\wsl.localhost\Ubuntu\home\eyald\LearnCSharp\TestProject\bin\Debug\net8.0\TestProject.runtimeconfig.json
+\\wsl.localhost\Ubuntu\home\eyald\LearnCSharp\TestProject\bin\Debug\net8.0\TestProject.dll
+\\wsl.localhost\Ubuntu\home\eyald\LearnCSharp\TestProject\bin\Debug\net8.0\TestProject.pdb
+\\wsl.localhost\Ubuntu\home\eyald\LearnCSharp\TestProject\obj\Debug\net8.0\TestProject.GeneratedMSBuildEditorConfig.editorconfig
+\\wsl.localhost\Ubuntu\home\eyald\LearnCSharp\TestProject\obj\Debug\net8.0\TestProject.AssemblyInfoInputs.cache
+\\wsl.localhost\Ubuntu\home\eyald\LearnCSharp\TestProject\obj\Debug\net8.0\TestProject.AssemblyInfo.cs
+\\wsl.localhost\Ubuntu\home\eyald\LearnCSharp\TestProject\obj\Debug\net8.0\TestProject.csproj.CoreCompileInputs.cache
+\\wsl.localhost\Ubuntu\home\eyald\LearnCSharp\TestProject\obj\Debug\net8.0\TestProject.dll
+\\wsl.localhost\Ubuntu\home\eyald\LearnCSharp\TestProject\obj\Debug\net8.0\refint\TestProject.dll
+\\wsl.localhost\Ubuntu\home\eyald\LearnCSharp\TestProject\obj\Debug\net8.0\TestProject.pdb
+\\wsl.localhost\Ubuntu\home\eyald\LearnCSharp\TestProject\obj\Debug\net8.0\TestProject.genruntimeconfig.cache
+\\wsl.localhost\Ubuntu\home\eyald\LearnCSharp\TestProject\obj\Debug\net8.0\ref\TestProject.dll

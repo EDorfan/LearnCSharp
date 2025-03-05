@@ -1,0 +1,14 @@
+/home/eyald/LearnC#/MyFirstApp/bin/Debug/net8.0/MyFirstApp
+/home/eyald/LearnC#/MyFirstApp/bin/Debug/net8.0/MyFirstApp.deps.json
+/home/eyald/LearnC#/MyFirstApp/bin/Debug/net8.0/MyFirstApp.runtimeconfig.json
+/home/eyald/LearnC#/MyFirstApp/bin/Debug/net8.0/MyFirstApp.dll
+/home/eyald/LearnC#/MyFirstApp/bin/Debug/net8.0/MyFirstApp.pdb
+/home/eyald/LearnC#/MyFirstApp/obj/Debug/net8.0/MyFirstApp.GeneratedMSBuildEditorConfig.editorconfig
+/home/eyald/LearnC#/MyFirstApp/obj/Debug/net8.0/MyFirstApp.AssemblyInfoInputs.cache
+/home/eyald/LearnC#/MyFirstApp/obj/Debug/net8.0/MyFirstApp.AssemblyInfo.cs
+/home/eyald/LearnC#/MyFirstApp/obj/Debug/net8.0/MyFirstApp.csproj.CoreCompileInputs.cache
+/home/eyald/LearnC#/MyFirstApp/obj/Debug/net8.0/MyFirstApp.dll
+/home/eyald/LearnC#/MyFirstApp/obj/Debug/net8.0/refint/MyFirstApp.dll
+/home/eyald/LearnC#/MyFirstApp/obj/Debug/net8.0/MyFirstApp.pdb
+/home/eyald/LearnC#/MyFirstApp/obj/Debug/net8.0/MyFirstApp.genruntimeconfig.cache
+/home/eyald/LearnC#/MyFirstApp/obj/Debug/net8.0/ref/MyFirstApp.dll

@@ -1,0 +1,14 @@
+\\wsl.localhost\Ubuntu\home\eyald\LearnCSharp\LearnToThread\bin\Debug\net8.0\LearnToThread.exe
+\\wsl.localhost\Ubuntu\home\eyald\LearnCSharp\LearnToThread\bin\Debug\net8.0\LearnToThread.deps.json
+\\wsl.localhost\Ubuntu\home\eyald\LearnCSharp\LearnToThread\bin\Debug\net8.0\LearnToThread.runtimeconfig.json
+\\wsl.localhost\Ubuntu\home\eyald\LearnCSharp\LearnToThread\bin\Debug\net8.0\LearnToThread.dll
+\\wsl.localhost\Ubuntu\home\eyald\LearnCSharp\LearnToThread\bin\Debug\net8.0\LearnToThread.pdb
+\\wsl.localhost\Ubuntu\home\eyald\LearnCSharp\LearnToThread\obj\Debug\net8.0\LearnToThread.GeneratedMSBuildEditorConfig.editorconfig
+\\wsl.localhost\Ubuntu\home\eyald\LearnCSharp\LearnToThread\obj\Debug\net8.0\LearnToThread.AssemblyInfoInputs.cache
+\\wsl.localhost\Ubuntu\home\eyald\LearnCSharp\LearnToThread\obj\Debug\net8.0\LearnToThread.AssemblyInfo.cs
+\\wsl.localhost\Ubuntu\home\eyald\LearnCSharp\LearnToThread\obj\Debug\net8.0\LearnToThread.csproj.CoreCompileInputs.cache
+\\wsl.localhost\Ubuntu\home\eyald\LearnCSharp\LearnToThread\obj\Debug\net8.0\LearnToThread.dll
+\\wsl.localhost\Ubuntu\home\eyald\LearnCSharp\LearnToThread\obj\Debug\net8.0\refint\LearnToThread.dll
+\\wsl.localhost\Ubuntu\home\eyald\LearnCSharp\LearnToThread\obj\Debug\net8.0\LearnToThread.pdb
+\\wsl.localhost\Ubuntu\home\eyald\LearnCSharp\LearnToThread\obj\Debug\net8.0\LearnToThread.genruntimeconfig.cache
+\\wsl.localhost\Ubuntu\home\eyald\LearnCSharp\LearnToThread\obj\Debug\net8.0\ref\LearnToThread.dll
