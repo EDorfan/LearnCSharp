@@ -5,6 +5,8 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.SqlServer;
 using PersonalFinanceTracker.Models;
+using PersonalFinanceTracker.data;
+
 
 
 // Sets up the application with default configurations.
@@ -16,12 +18,18 @@ builder.Services.AddDbContext<ApplicationDbContext>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection"));
 });
 
-// Configure Identity
-builder.Services.AddIdentity<ApplicationUser, IdentityRole>(options => 
-{
-    options.SignIn.RequireConfirmedAccount = false;
+// Configure Identity for Authentication
+builder.Services.AddIdentity<ApplicationUser, IdentityRole>()
+    .AddEntityFrameworkStores<ApplicationDbContext>()
+    .AddDefaultTokenProviders();
 
-}).AddEntityFrameworkStores<ApplicationDbContext>();
+// Configure Authentication
+builder.Services.ConfigureApplicationCookie(options =>
+{
+    options.LoginPath = "/Account/Login";  // Redirect to login if unauthorized
+    options.AccessDeniedPath = "/Account/AccessDenied"; // Redirect for denied access
+});
+
 
 // Add MVC Controllers and Views
 builder.Services.AddControllersWithViews();
@@ -33,6 +41,10 @@ var app = builder.Build();
 
 // Configure the HTTP request pipeline.
 if (!app.Environment.IsDevelopment())
+{ 
+    app.UseDeveloperExceptionPage();
+}
+else
 {
     app.UseExceptionHandler("/Error");
     app.UseHsts();
@@ -46,11 +58,14 @@ app.UseStaticFiles();
 // Enables routing (so the app knows how to handle URLs)
 app.UseRouting();
 // Enables authentication and authorization (we will configure this later)
+app.UseAuthentication();
 app.UseAuthorization();
 
 app.MapControllers();  // For API controllers
 app.MapRazorPages();   // If using Razor Pages
-app.MapDefaultControllerRoute(); // Default MVC routing
+app.MapControllerRoute(
+    name: "default",
+    pattern: "{controller=Home}/{action=Index}/{id?}"); // Default MVC routing
 
 // Maps Razor Pages (so the app can serve UI pages)
 app.MapRazorPages();

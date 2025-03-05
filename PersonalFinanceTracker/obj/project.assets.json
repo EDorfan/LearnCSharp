@@ -4465,19 +4465,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\eyald\\.nuget\\packages\\": {}
+    "/home/eyald/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "\\\\wsl.localhost\\Ubuntu\\home\\eyald\\LearnCSharp\\PersonalFinanceTracker\\PersonalFinanceTracker.csproj",
+      "projectUniqueName": "/home/eyald/LearnCSharp/PersonalFinanceTracker/PersonalFinanceTracker.csproj",
       "projectName": "PersonalFinanceTracker",
-      "projectPath": "\\\\wsl.localhost\\Ubuntu\\home\\eyald\\LearnCSharp\\PersonalFinanceTracker\\PersonalFinanceTracker.csproj",
-      "packagesPath": "C:\\Users\\eyald\\.nuget\\packages\\",
-      "outputPath": "\\\\wsl.localhost\\Ubuntu\\home\\eyald\\LearnCSharp\\PersonalFinanceTracker\\obj\\",
+      "projectPath": "/home/eyald/LearnCSharp/PersonalFinanceTracker/PersonalFinanceTracker.csproj",
+      "packagesPath": "/home/eyald/.nuget/packages/",
+      "outputPath": "/home/eyald/LearnCSharp/PersonalFinanceTracker/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\eyald\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "/home/eyald/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net8.0"
@@ -4495,13 +4495,7 @@
         "warnAsError": [
           "NU1605"
         ]
-      },
-      "restoreAuditProperties": {
-        "enableAudit": "true",
-        "auditLevel": "low",
-        "auditMode": "direct"
-      },
-      "SdkAnalysisLevel": "9.0.200"
+      }
     },
     "frameworks": {
       "net8.0": {
@@ -4537,24 +4531,6 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
-        "downloadDependencies": [
-          {
-            "name": "Microsoft.AspNetCore.App.Ref",
-            "version": "[8.0.13, 8.0.13]"
-          },
-          {
-            "name": "Microsoft.NETCore.App.Host.win-x64",
-            "version": "[8.0.13, 8.0.13]"
-          },
-          {
-            "name": "Microsoft.NETCore.App.Ref",
-            "version": "[8.0.13, 8.0.13]"
-          },
-          {
-            "name": "Microsoft.WindowsDesktop.App.Ref",
-            "version": "[8.0.13, 8.0.13]"
-          }
-        ],
         "frameworkReferences": {
           "Microsoft.AspNetCore.App": {
             "privateAssets": "none"
@@ -4563,7 +4539,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.200/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/8.0.112/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
