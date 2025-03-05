@@ -1,0 +1,15 @@
+\\wsl.localhost\Ubuntu\home\eyald\LearnCSharp\LearnConcurrency\bin\Debug\net8.0\LearnConcurrency.exe
+\\wsl.localhost\Ubuntu\home\eyald\LearnCSharp\LearnConcurrency\bin\Debug\net8.0\LearnConcurrency.deps.json
+\\wsl.localhost\Ubuntu\home\eyald\LearnCSharp\LearnConcurrency\bin\Debug\net8.0\LearnConcurrency.runtimeconfig.json
+\\wsl.localhost\Ubuntu\home\eyald\LearnCSharp\LearnConcurrency\bin\Debug\net8.0\LearnConcurrency.dll
+\\wsl.localhost\Ubuntu\home\eyald\LearnCSharp\LearnConcurrency\bin\Debug\net8.0\LearnConcurrency.pdb
+\\wsl.localhost\Ubuntu\home\eyald\LearnCSharp\LearnConcurrency\obj\Debug\net8.0\LearnConcurrency.GeneratedMSBuildEditorConfig.editorconfig
+\\wsl.localhost\Ubuntu\home\eyald\LearnCSharp\LearnConcurrency\obj\Debug\net8.0\LearnConcurrency.AssemblyInfoInputs.cache
+\\wsl.localhost\Ubuntu\home\eyald\LearnCSharp\LearnConcurrency\obj\Debug\net8.0\LearnConcurrency.AssemblyInfo.cs
+\\wsl.localhost\Ubuntu\home\eyald\LearnCSharp\LearnConcurrency\obj\Debug\net8.0\LearnConcurrency.csproj.CoreCompileInputs.cache
+\\wsl.localhost\Ubuntu\home\eyald\LearnCSharp\LearnConcurrency\obj\Debug\net8.0\LearnConcurrency.sourcelink.json
+\\wsl.localhost\Ubuntu\home\eyald\LearnCSharp\LearnConcurrency\obj\Debug\net8.0\LearnConcurrency.dll
+\\wsl.localhost\Ubuntu\home\eyald\LearnCSharp\LearnConcurrency\obj\Debug\net8.0\refint\LearnConcurrency.dll
+\\wsl.localhost\Ubuntu\home\eyald\LearnCSharp\LearnConcurrency\obj\Debug\net8.0\LearnConcurrency.pdb
+\\wsl.localhost\Ubuntu\home\eyald\LearnCSharp\LearnConcurrency\obj\Debug\net8.0\LearnConcurrency.genruntimeconfig.cache
+\\wsl.localhost\Ubuntu\home\eyald\LearnCSharp\LearnConcurrency\obj\Debug\net8.0\ref\LearnConcurrency.dll
