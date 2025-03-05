@@ -12,3 +12,4 @@
 \\wsl.localhost\Ubuntu\home\eyald\LearnCSharp\LearnToThread\obj\Debug\net8.0\LearnToThread.pdb
 \\wsl.localhost\Ubuntu\home\eyald\LearnCSharp\LearnToThread\obj\Debug\net8.0\LearnToThread.genruntimeconfig.cache
 \\wsl.localhost\Ubuntu\home\eyald\LearnCSharp\LearnToThread\obj\Debug\net8.0\ref\LearnToThread.dll
+\\wsl.localhost\Ubuntu\home\eyald\LearnCSharp\LearnToThread\obj\Debug\net8.0\LearnToThread.sourcelink.json
