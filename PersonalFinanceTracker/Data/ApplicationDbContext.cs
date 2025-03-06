@@ -5,6 +5,7 @@
 
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
+using PersonalFinanceTracker.Models;
 
 namespace PersonalFinanceTracker.data
 {

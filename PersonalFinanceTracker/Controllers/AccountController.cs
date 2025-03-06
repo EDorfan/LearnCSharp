@@ -10,9 +10,11 @@ This controller interacts with ASP.NET Identity, which is a built-in authenticat
 
 */
 
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using System.Threading.Tasks;
+using PersonalFinanceTracker.Models;
 
 public class AccountController : Controller
 {
@@ -41,16 +43,25 @@ public class AccountController : Controller
     [HttpPost]
     public async Task<IActionResult> Register(RegisterViewModel model)
     {
+        Console.WriteLine("Received a POST request for Register");
+
         if (ModelState.IsValid)
         {
+            Console.WriteLine("Model is valid");
+
             var user = new ApplicationUser { UserName = model.Email, Email = model.Email };
+
+            Console.WriteLine($"Attempting to create user: {user.UserName}");
+
             var result = await _userManager.CreateAsync(user, model.Password);
             if (result.Succeeded)
             {
+                Console.WriteLine("User Successfully Registered");
                 return RedirectToAction("Index", "Home");
             }
             foreach (var error in result.Errors)
             {
+                Console.WriteLine($"Error: {error.Description}"); // Debugging output
                 ModelState.AddModelError(string.Empty, error.Description);
             }
         }
@@ -89,4 +100,58 @@ public class AccountController : Controller
         await _signInManager.SignOutAsync();
         return RedirectToAction("Index", "Home");
     }
+
+    /*
+    Requires the user to be authorized ([Authorize]) to access this action.
+    Retrieves the current user's email using _userManager.GetUserAsync(User).Result.
+    Creates a new instance of ProfileViewModel with the user's email.
+    Returns a view with the populated ProfileViewModel instance.
+    */
+    [Authorize]
+    public IActionResult Profile()
+    {
+        var user = _userManager.GetUserAsync(User).Result;
+        var model = new ProfileViewModel { Email = user.Email };
+        return View(model);
+    }
+
+    /*
+    update a user's profile. Here's a succinct breakdown:
+
+    It checks if the model state is valid. If not, it returns the view with the model.
+    It retrieves the current user using _userManager.GetUserAsync(User).
+    If the CurrentPassword and NewPassword fields in the model are not null, it attempts to change the user's password using _userManager.ChangePasswordAsync.
+    If the password change fails, it adds error messages to the model state and returns the view with the model.
+    If the password change succeeds or if no password change was attempted, it redirects the user to the "Index" action of the "Home" controller.
+
+    */
+    [HttpPost]
+    [Authorize]
+    public async Task<IActionResult> Profile(ProfileViewModel model)
+    {
+        if (!ModelState.IsValid)
+        {
+            return View(model);
+        }
+
+        var user = await _userManager.GetUserAsync(User);
+        
+        if (model.CurrentPassword != null && model.NewPassword != null)
+        {
+            var changePasswordResult = await _userManager.ChangePasswordAsync(user, model.CurrentPassword, model.NewPassword);
+            if (!changePasswordResult.Succeeded)
+            {
+                foreach (var error in changePasswordResult.Errors)
+                {
+                    ModelState.AddModelError("", error.Description);
+                }
+                return View(model);
+            }
+        }
+
+        return RedirectToAction("Index", "Home");
+    }
+
+
+
 }
